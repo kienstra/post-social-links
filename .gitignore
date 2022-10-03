@@ -1,0 +1,4 @@
+vendor
+.DS_Store
+.phpunit.result.cache
+.circleci/dynamic/node_modules
