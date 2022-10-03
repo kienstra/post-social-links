@@ -23,7 +23,7 @@ config.addWorkflow(workflow);
       new CircleCI.commands.Checkout(),
       new CircleCI.commands.Run({ command: "composer zip" }),
       new CircleCI.commands.StoreArtifacts({
-        path: "adapter-gravity-add-on.zip",
+        path: "post-social-links.zip",
       }),
     ]
   ),
