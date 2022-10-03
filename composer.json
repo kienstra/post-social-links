@@ -22,7 +22,6 @@
     "lint": "phpcs" ,
     "lint-fix": "phpcbf" ,
     "zip": [
-      "composer install --no-dev",
       "if [ -f post-social-links.zip ]; then rm -f post-social-links.zip; fi",
       "zip -x@.zipignore -r post-social-links.zip ."
     ]
