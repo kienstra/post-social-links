@@ -11,7 +11,7 @@ namespace PostSocialLinks;
  * Plugin Name: Post Social Links
  * Plugin URI: https://github.com/kienstra/post-social-links
  * Description: Adds social sharing links after every post.
- * Version: 0.1.0
+ * Version: 0.1.1
  * Author: Ryan Kienstra
  * Author URI: https://github.com/kienstra
  * License: GPL2+
