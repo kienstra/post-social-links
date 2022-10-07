@@ -20,6 +20,10 @@ namespace PostSocialLinks;
 add_filter( 'the_content', __NAMESPACE__ . '\add_social_links_after_each_post' );
 
 function add_social_links_after_each_post( $content ) {
+	if ( 'post' !== get_post_type() ) {
+		return $content;
+	}
+
 	$social_links = [
 		[
 			'blockName' => 'core/social-link',
